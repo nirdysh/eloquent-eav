@@ -1,0 +1,29 @@
+{
+    "name": "nirdysh/eloquent-eav",
+    "description": "Entity Attribute Value implementation for Laravel Eloquent",
+    "type": "library",
+    "require": {
+        "php": "^8.0",
+        "illuminate/database": "^9.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Nirdysh\\EloquentEav\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kath Young",
+            "email": "kath2young@gmail.com"
+        },
+        {
+            "name": "Samuel Levy",
+            "email": "sam@samuellevy.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
